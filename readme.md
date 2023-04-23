@@ -1,0 +1,2 @@
+# Benford Checker App
+This is the webapp developed using pyramid framework during data apprenticeship program at coderush.It takes the csv file form the user and check whether or not the datas in csv file satisfies the benford's law.

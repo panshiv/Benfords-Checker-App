@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {# <link rel="stylesheet" href="{{ url_for('static', filename='static/styles.css') }}"> #}
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Benford Analysis</title>
+</head>
+<body>
+    <h1 class="title">Benford Checker {{title}}</h1>
+    <form  class ='form' action="{{ request.route_url('upload') }}" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+                <label class="form-header">Select CSV file to upload: </label>
+                <input type="file" name="file" id="file" required>
+    </div>
+     <div class="btn-group">
+            <a href="#" class="form-btn" id="benford">Check</a>
+            </div>
+    </form>
+</body>
+</html>
+
