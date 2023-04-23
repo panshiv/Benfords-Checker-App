@@ -10,12 +10,17 @@ body{
  align-items: center;
 
 }
+.form-container{
+  padding: 2rem;
+  border: 1px solid bisque ;
+}
+
 .title {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 1.2rem;
   padding: 0.5rem;
-  border-bottom: 0.8px solid var(--form-border-color);
+  border-bottom: 0.8px solid blue;
 }
 
 .form-group {

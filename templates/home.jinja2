@@ -9,6 +9,7 @@
     <title>Benford Analysis</title>
 </head>
 <body>
+    <div class="form-container">
     <h1 class="title">Benford Checker {{title}}</h1>
     <form  class ='form' action="{{ request.route_url('upload') }}" method="post" enctype="multipart/form-data">
     <div class="form-group">
@@ -19,6 +20,7 @@
             <a href="#" class="form-btn" id="benford">Check</a>
             </div>
     </form>
+    </div>
 </body>
 </html>
 
